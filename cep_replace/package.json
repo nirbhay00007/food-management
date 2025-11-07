@@ -1,0 +1,15 @@
+{
+  "name": "cep-food-planner",
+  "version": "1.0.0",
+  "description": "College mess planner - Node + Express + SQLite",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}

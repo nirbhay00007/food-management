@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Select Meals - Mess Planner</title>
+<link rel="stylesheet" href="/style.css"></head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="brand">
+        <img src="/images/cart.png" alt="logo">
+        <div>
+          <h2>Mess Planner - Selection</h2>
+          <small>Select meals for a date</small>
+        </div>
+      </div>
+      <div>
+        <span id="userLine" style="color:#6b7280;margin-right:12px"></span>
+        <button class="btn ghost" id="btnLogout">Logout</button>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px">
+      <div style="display:flex;gap:10px;align-items:center">
+        <label for="selDate">Select date:</label>
+        <input type="date" id="selDate">
+        <button class="btn" id="btnLoadMenu">Load Menu</button>
+      </div>
+
+      <div class="my-selections card" id="mySelections" style="margin-top:12px;min-height:40px">
+        <strong>Your selections</strong>
+        <div id="mySelectionsList"></div>
+      </div>
+
+      <div id="menuArea" class="menu-block"></div>
+    </div>
+  </div>
+
+<script src="/script.js"></script>
+</body>
+</html>
